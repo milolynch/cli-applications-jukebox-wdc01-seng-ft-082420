@@ -44,17 +44,13 @@ end
 
 def run(songs)
   puts "Please enter a command:"
-  input = gets.strip
   should_end = false
-  temp = 1
-  while should_end == false do 
-    puts "im on"
-    if temp == 2
+  while should_end == false do
+    input = gets.strip
+    if input == "exit"
       should_end = true
     end
-    temp +=1
   end
-  puts "im off"
 end
 
 run(songs)
