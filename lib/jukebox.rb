@@ -47,9 +47,9 @@ def run(songs)
   input = gets.strip
   should_end = false
   temp = 1
-  while should_end = false do 
+  while should_end == false do 
     puts "im on"
-    if temp = 2
+    if temp == 2
       should_end = true
     end
     temp +=1
