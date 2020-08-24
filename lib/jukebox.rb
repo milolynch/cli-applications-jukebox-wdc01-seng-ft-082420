@@ -30,7 +30,7 @@ end
 
 def play(songs)
   order = [1,2,3,4,5,6,7,8,9]
-  puts "Please enter a song name or number"
+  puts "Please enter a song name or number:"
   input = gets.strip
   if order.include?(input.to_i) == true
     temp = input.to_i
