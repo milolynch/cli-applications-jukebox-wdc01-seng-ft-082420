@@ -24,7 +24,7 @@ end
 
 def list(songs)
   puts "hi"
-  songs.each 
+  songs.each {|item| print(item + "\n") } 
 end
 
 list(songs)
