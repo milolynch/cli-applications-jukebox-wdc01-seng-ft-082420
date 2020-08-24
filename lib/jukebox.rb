@@ -49,6 +49,7 @@ def run(songs)
     input = gets.strip
     if input == "exit"
       exit_jukebox
+      should_end = true
     end
   end
 end
