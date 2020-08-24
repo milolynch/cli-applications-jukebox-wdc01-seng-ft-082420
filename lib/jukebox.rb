@@ -25,7 +25,8 @@ end
 def list(songs)
   index = 1
   songs.each {|item|
-    print(item + "\n") 
+    print(item + "\n")
+    index++
   } 
 end
 
