@@ -34,11 +34,11 @@ def play(songs)
   input = gets.strip
   if order.include?(input.to_i) == true
     temp = input.to_i
-    return "Playing #{songs[temp]}"
+    puts "Playing #{songs[temp]}"
   elsif songs.include?(song_n_n) == true
-    return "Playing #{input}"
+    puts "Playing #{input}"
   else
-    return "Invalid input, please try again"
+    puts "Invalid input, please try again"
   end
 end
 
