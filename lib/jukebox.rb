@@ -36,7 +36,7 @@ def play(songs)
   elsif songs_n_n.class == "a".class
     puts "string"
   else
-    puts ""
+    puts "Invalid input, please try again"
   end
 end
 
