@@ -31,7 +31,13 @@ end
 def play(songs)
   puts "Please enter a song name or number"
   song_n_n = gets.strip
-  if song_n_n.class == 
+  if song_n_n.class == 1.class
+    puts "int"
+  elsif songs_n_n.class == "a".class
+    puts "string"
+  else
+    puts ""
+  end
 end
 
 play(songs)
