@@ -24,6 +24,7 @@ end
 
 def list(songs)
   puts "hi"
+  songs.each 
 end
 
 list(songs)
