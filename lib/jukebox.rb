@@ -28,4 +28,3 @@ def list(songs)
   }
 end
 
-list(songs)
