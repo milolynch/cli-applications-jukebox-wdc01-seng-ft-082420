@@ -33,7 +33,7 @@ def play(songs)
   song_n_n = gets.strip
   if song_n_n.class == 1.class
     puts "int"
-  elsif songs_n_n.class == "a".class
+  elsif song_n_n.class == "a".class
     puts "string"
   else
     puts "Invalid input, please try again"
