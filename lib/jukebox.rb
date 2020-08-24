@@ -31,6 +31,7 @@ end
 def play(songs)
   puts "Please enter a song name or number"
   song_n_n = gets.strip
+  if song_n_n.class == 
 end
 
 play(songs)
