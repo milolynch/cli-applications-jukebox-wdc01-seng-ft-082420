@@ -34,7 +34,7 @@ def play(songs)
   input = gets.strip
   if order.include?(input.to_i) == true
     temp = input.to_i
-    puts "Playing #{songs[temp+1]}"
+    puts "Playing #{songs[temp-1]}"
   end
 
 end
