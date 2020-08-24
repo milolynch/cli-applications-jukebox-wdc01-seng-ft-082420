@@ -22,5 +22,6 @@ def exit_jukebox
   puts "Goodbye"
 end
 
-help
-exit_jukebox
+def list(songs)
+  
+end
