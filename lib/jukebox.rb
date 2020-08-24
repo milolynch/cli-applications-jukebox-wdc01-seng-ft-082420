@@ -54,6 +54,7 @@ def run(songs)
     end
     temp +=1
   end
+  puts "im off"
 end
 
 run(songs)
