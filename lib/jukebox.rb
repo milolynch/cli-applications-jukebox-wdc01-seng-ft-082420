@@ -32,7 +32,7 @@ def play(songs)
   order = [1,2,3,4,5,6,7,8,9]
   puts "Please enter a song name or number"
   song_n_n = gets.strip
-  if order.include?(song_n_n) == true
+  if order.include?(song_n_n.to_i) == true
     puts "int"
   elsif songs.include?(song_n_n) == true
     puts "string"
