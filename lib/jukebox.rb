@@ -52,6 +52,8 @@ def run(songs)
       should_end = true
     elsif input == "help"
       help
+    elsif input == "list"
+      list(songs)
     end
   end
 end
