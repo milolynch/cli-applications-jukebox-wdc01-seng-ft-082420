@@ -23,8 +23,10 @@ def exit_jukebox
 end
 
 def list(songs)
-  puts "hi"
-  songs.each {|item| print(item + "\n") } 
+  index = 1
+  songs.each {|item|
+    print(item + "\n") 
+  } 
 end
 
 list(songs)
