@@ -35,7 +35,7 @@ def play(songs)
   if order.include?(song_n_n.to_i) == true
     puts "int"
   elsif songs.include?(song_n_n) == true
-    puts "string"
+    puts "song"
   else
     puts "Invalid input, please try again"
   end
