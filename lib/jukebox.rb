@@ -35,7 +35,11 @@ def play(songs)
   if order.include?(input.to_i) == true
     temp = input.to_i
     puts "Playing #{songs[temp-1]}"
+  elsif songs.include?(input) == true 
+  
   end
+  
+
 
 end
 
