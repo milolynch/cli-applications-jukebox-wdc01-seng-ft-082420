@@ -23,6 +23,10 @@ def exit_jukebox
 end
 
 def list(songs)
-
+  index = 1
+  songs.each {|item|
+    print("#{index}. " + item + "\n")
+    index +=1
+  } 
 end
 
