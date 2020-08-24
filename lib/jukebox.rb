@@ -23,5 +23,7 @@ def exit_jukebox
 end
 
 def list(songs)
-  
+  puts "hi"
 end
+
+list(songs)
