@@ -35,10 +35,7 @@ def play(songs)
   if order.include?(input.to_i) == true
     temp = input.to_i
     puts "Playing #{songs[temp]}"
-  elsif songs.include?(song_n_n) == true
-    puts "Playing #{input}"
-  else
-    puts "Invalid input, please try again"
   end
+
 end
 
